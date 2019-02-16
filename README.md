@@ -30,5 +30,5 @@ by using [Jib](https://github.com/GoogleContainerTools/jib) and [Skaffold](https
     $ skaffold dev
     ```
 
-3. If any code changes are made, Skaffold automatically rebuild the container image by using gladle-jib-plugin
+3. If any code changes are made, Skaffold automatically rebuild the container image by using jib-plugin
 and deploy app with LB Service. Then, you just access to http://localhost:8080/greeting/hello?name=foo.
